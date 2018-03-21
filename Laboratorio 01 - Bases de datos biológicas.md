@@ -7,7 +7,7 @@ _**Parte uno:**_	Enfermedades genéticas y genes
 ### Síndrome de Meckel 1
 - **Descripción**
 
-Es un grave desorden genético hereditario que se caracteriza por ser una enfermedad autosómica recesiva letal, donde mutaciones en el gen MKS1 que produzcan la enfermedad, pueden comúnmente generar: aumento del tamaño de los riñones, encefalocele occipital, anormalidades en el sistema nervioso central, polidactilia, entre otras [1](https://ghr.nlm.nih.gov/condition/meckel-syndrome#genes) [2](http://www.omim.org/entry/249000?search=meckel%20syndrome&highlight=meckel%20syndrome%20syndromic).
+Es un grave desorden genético hereditario que se caracteriza por ser una enfermedad autosómica recesiva letal, donde mutaciones en el gen MKS1 que produzcan la enfermedad, pueden alterar la estructuralidad de cuerpos basales (cilios, más que todo) en células epiteliales, ocasionando comúnmente: aumento del tamaño de los riñones, encefalocele occipital, anormalidades en el sistema nervioso central, polidactilia, entre otras. [1](https://ghr.nlm.nih.gov/condition/meckel-syndrome#genes) [2](http://www.omim.org/entry/249000?search=meckel%20syndrome&highlight=meckel%20syndrome%20syndromic).
 
 - **Gen relacionado:** MKS1 [3](http://www.omim.org/entry/249000?search=meckel%20syndrome&highlight=meckel%20syndrome%20syndromic
  ). 
