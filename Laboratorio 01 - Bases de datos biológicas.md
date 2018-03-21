@@ -25,7 +25,7 @@ Según la base de datos *Gene*, los alias reportados son: BBS13, JBTS28, 	MES,
 
 El gen MKS1 se encuentra en el brazo q del cromosoma 17, región 2, banda 2 (siendo su nomenclatura, 17q22) [5](https://www.ncbi.nlm.nih.gov/gene/54903#variation). 
 
-GRCh38.p7 (actual) y GRCh37.p13 (anterior) son los dos ensambles reportados por Gene con nueve y cinco isoformas, respectivamente. Ambos poseen 20 exones [6](https://www.ncbi.nlm.nih.gov/gene/54903#variation).
+GRCh38.p7 (actual) y GRCh37.p13 (anterior) son los dos ensambles reportados por *Gene* con nueve y cinco isoformas, respectivamente. Ambos poseen 20 exones [6](https://www.ncbi.nlm.nih.gov/gene/54903#variation).
 
 - ¿Qué tipo de proteína es codificada por este gen? ¿Cuál es su número EC?  
 
@@ -54,7 +54,7 @@ En *Clinvar* hay descritas un total de 144 variantes del gen. Debido a que es un
 	Insertion (7)
 	Single nucleotide (117)
 	
-Es importante resaltar que, al buscar otras bases de datos, por ejemplo, *Variation Viewer*, lo reportado tiende a ser un tanto diferente. Aquí se encuentran 2253 variantes del gen clasificadas así [14](https://www.ncbi.nlm.nih.gov/variation/view/?q=54903%5Bgeneid%5D):
+Es importante resaltar que, al buscar en otras bases de datos, por ejemplo, *Variation Viewer*, lo reportado tiende a ser diferente. Aquí se encuentran 2253 variantes del gen clasificadas así [14](https://www.ncbi.nlm.nih.gov/variation/view/?q=54903%5Bgeneid%5D):
 
 	Single nucleotide variant (2,013)
 	Copy number variation (74)
@@ -70,7 +70,7 @@ Es importante resaltar que, al buscar otras bases de datos, por ejemplo, *Variat
 - ¿Existen ortólogos de tu gen en otras especies? ¿Cuántos?  
 	¿Y paralógos? ¿Hay pseudogenes? ¿Cuántos?  
 	
-*Kegg* reporta 391 ortólogos del gen MKS1 [16](http://www.kegg.jp/ssdb-bin/ssdb_best?org_gene=hsa:54903). Por otro lado, según misma base de datos, existen 5 parálogos [17](http://www.kegg.jp/ssdb-bin/ssdb_paralog?org_gene=hsa:54903). No hay pseudogenes reportados en *Kegg*.
+*Kegg* reporta 391 ortólogos del gen MKS1 [16](http://www.kegg.jp/ssdb-bin/ssdb_best?org_gene=hsa:54903). Por otro lado, según misma base de datos, existen 5 parálogos [17](http://www.kegg.jp/ssdb-bin/ssdb_paralog?org_gene=hsa:54903). No hay pseudogenes reportados en *Kegg*, ni en otras bases revisadas.
 
 ----
 _**Parte dos:**_ Rutas y procesos metabólicos
@@ -91,7 +91,7 @@ Los nombres alternativos reportados por *Kegg* para el gen MKS1 son los mismos q
 
 - En general, cada unidad dentro de una base de datos tiene un número o código de identificación único. De esta forma, uno puede obtener exactamente lo que quiere dentro de un océano de otras cosas ¿En qué otras bases de datos está tu gen presente y cuáles son sus números de acceso?  
 
-Las bases de datos con su número de acceso para el gen MKS1 que fueron encontradas en *Kegg* son las siguientes [21](http://www.genome.jp/dbget-bin/www_bget?hsa:mks1):
+Las bases de datos con su número de acceso para el gen MKS1, encontradas en *Kegg*, son las siguientes [21](http://www.genome.jp/dbget-bin/www_bget?hsa:mks1):
 
 	NCBI-GeneID: 54903
 	NCBI-ProteinID: NP_060247
@@ -111,18 +111,18 @@ EL gen MKS1, según *Kegg*, no está involucrado en ninguna ruta metabólica [22
 
 - ¿Qué significan los cuadros verdes en el diagrama?
 
-No es posible resolver esta pregunta para el gen MKS1; no obstante, leyendo las guías de *Kegg*, los cuadros verdes representan rutas específicas del organismo (procesos identificados en este caso para humanos) [23](http://www.genome.jp/kegg/kegg3a.html).
+No es posible resolver esta pregunta para el gen MKS1; no obstante, leyendo las guías de *Kegg*, los cuadros verdes representan rutas específicas del organismo (procesos identificados, en este caso, para humanos) [23](http://www.genome.jp/kegg/kegg3a.html).
 
 - ¿Con qué rutas se cruza la ruta metabólica?
 
-Esta pregunta no es el caso para el gen MKS1 [24](http://www.genome.jp/dbget-bin/www_bget?hsa:mks1).
+Esta pregunta no es del caso para el gen MKS1 [24](http://www.genome.jp/dbget-bin/www_bget?hsa:mks1).
 
 ----
 *Preguntas 2.3* **GO (Gene ontology)**
 
 - ¿Cuántos "dominios" forman la anotación GO?
 
-Los dominios de *GO* son tres principalmente [25](http://geneontology.org/page/ontology-documentation) [26](http://geneontology.org/page/ontology-structure):
+Los dominios que forman *GO* son tres principalmente [25](http://geneontology.org/page/ontology-documentation) [26](http://geneontology.org/page/ontology-structure):
 
 	Componente celular
 	Función molecular
@@ -131,7 +131,7 @@ Los dominios de *GO* son tres principalmente [25](http://geneontology.org/page/o
 - Ve a "Tools" --> "AmiGO 2" y escribe en la casilla de búsqueda GO:0006096  
 ¿A qué corresponde este término y qué información te entrega la página?
 
-El término GO:0006096 corresponde al Proceso Glucolítico. Al buscarlo, *GO* nos entrega ciertos links con los cuales podemos acceder a información precisa que necesitemos del proceso (siendo estos, información detallada, anotaciones directas e indirectas, y genes y productos asociados al proceso) [27](http://amigo.geneontology.org/amigo/medial_search?q=GO%3A0006096). Por otro lado, aunque un tanto similar a lo ya expuesto, también aparecen las pestañas *Ontology*, *Genes and genes products*, y *Annotations*, las cuales tienen información un tanto similar para algunos casos con la encontrada en los links [28](http://amigo.geneontology.org/amigo/medial_search?q=GO%3A0006096).
+El término GO:0006096 corresponde al Proceso Glucolítico. Al buscarlo, *GO* nos entrega ciertos links con los cuales podemos acceder a información precisa que necesitemos del proceso (siendo estos, información detallada, anotaciones directas e indirectas, y genes y productos asociados al proceso) [27](http://amigo.geneontology.org/amigo/medial_search?q=GO%3A0006096). Por otro lado, aunque un tanto similar a lo ya expuesto, también aparecen las pestañas *Ontology*, *Genes and genes products*, y *Annotations*, las cuales tienen información un tanto similar, para algunos casos, con la encontrada en los links [28](http://amigo.geneontology.org/amigo/medial_search?q=GO%3A0006096).
 
 - Haz clic en "Graph Views" y examina el gráfico. Anota 10 sub-categorías GO a la cual GO:0006096 pertenece.
 
@@ -165,7 +165,7 @@ El gen GAPDH para *Gallus gallus* tiene una longitud de 1288 pb según *Nucleoti
 
 - ¿Cuál es la referencia bibliográfica más reciente? 
 
-La más reciente de las referencias bibliográfica reportada en *Nucleotide* es del 2 de diciembre de 2015 [32](https://www.ncbi.nlm.nih.gov/nuccore/NM_204305.1). Su referencia completa es [33](https://www.sciencedirect.com/science/article/pii/S0168170215300289?via%3Dihub):
+La más reciente de las referencias bibliográficas reportada en *Nucleotide* es del 2 de diciembre de 2015 [32](https://www.ncbi.nlm.nih.gov/nuccore/NM_204305.1). Su referencia completa es [33](https://www.sciencedirect.com/science/article/pii/S0168170215300289?via%3Dihub):
 
 Ren, Xiangang, Zhang, Lizhou, Gao, Yulong, Gao, Honglei, Wang, Yongqiang, Liu, Changjun, Cui, Hongyu, Zhang, Yanping, Jiang, Lili, Qi, Xiaole, Wang, Xiaomei, Binding chicken Anx2 is beneficial for infection with infectious bursal disease virus.Virus Research http://dx.doi.org/10.1016/j.virusres.2015.07.024 
 
@@ -173,7 +173,7 @@ Ren, Xiangang, Zhang, Lizhou, Gao, Yulong, Gao, Honglei, Wang, Yongqiang, Liu, C
 
 **NM_204305** es el número de acceso para mRNA de GAPDH de *Gallus gallus* en *Nucleotide* [34](https://www.ncbi.nlm.nih.gov/nuccore/NM_204305.1).
 
--  Secuencia de nucleótidos (mRNA) de GAPDH para *Gallus gallus*
+-  Secuencia de nucleótidos (mRNA) de GAPDH para *Gallus gallus*.
 
 Formato FASTA
 
@@ -202,6 +202,9 @@ _**Parte cuatro:**_ Buscando artículos científicos en línea.
 
 ![confirmacion](https://user-images.githubusercontent.com/37593827/37691282-694acfd6-2c8f-11e8-9012-130309fdaf20.png)
 
+![confirmacion de suscripcion](https://user-images.githubusercontent.com/37593827/37707533-34ac521a-2ce2-11e8-8379-47232e1b1360.png)
+
+
 ---
 *Preguntas 4.1* **Google Scholar**
 
@@ -210,7 +213,7 @@ Búsqueda de la palabra *Hedychium coronarium*.
 - Ahora usa comillas para realizar tu búsqueda.
 	¿Son los resultados idénticos o no?
 	
-Los resultados no son idénticos, ya que para el caso sin comillas el número de resultados obtenidos es mayor con respecto a la búsqueda realiza con comillas (siendo, 3540 y 3300 resultados para *Hedychium coronarium* y "*Hedychium coronarium*", respectivamente) [35](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22Hedychium+coronarium%22&btnG=) [36](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Hedychium+coronarium&btnG=	).
+Los resultados no son idénticos, ya que para el caso sin comillas el número de resultados obtenidos es mayor con respecto a la búsqueda realizada con comillas (siendo, 3540 y 3300 resultados para *Hedychium coronarium* y "*Hedychium coronarium*", respectivamente) [35](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22Hedychium+coronarium%22&btnG=) [36](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Hedychium+coronarium&btnG=	).
 
 Según los sitios encontrados en las últimas páginas de búsqueda, se puede afirmar que escribir la palabra sin comillas permite obtener resultados un tanto "flexibles", donde únicamente se encuentre el género (*Hedychium*), por ejemplo. Por otro lado, con el uso de comillas solo se encuentran resultados que incluyan las dos palabras (*Hedychium coronarium*).
 
@@ -222,7 +225,7 @@ Teniendo en cuenta el número de resultados de la pregunta anterior, los obtenid
 - También puedes condicionar tus búsquedas a rangos de números como precios, años, etc. Prueba con 14 inch...17 inch laptops en google.com
 ¿Qué encuentras en los resultados? Prueba sin el rango también.
 
-Al establecer el rango, se obtuvieron un total de 3.800.000 resultados, donde se pueden identificar páginas que dan cuenta del intervalo de pulgadas establecido [38](https://www.google.cl/search?q=14+inch...17+inch+laptops&rlz=1C5CHFA_enCO779CO779&ei=kWSxWqbCN8uswgTX9KWIDA&start=40&sa=N&biw=1366&bih=694). Por otro lado, al buscar solamente laptops, el número de resultados asciende hasta 235.000.000, y el número de pulgadas ya no es la única característica del común de las páginas [39](https://www.google.cl/search?rlz=1C5CHFA_enCO779CO779&ei=0mSxWs3_K8GkwAS9n7WwAg&q=+laptops&oq=+laptops&gs_l=psy-ab.3..35i39k1j0i7i30k1l9.3526.3526.0.3679.1.1.0.0.0.0.59.59.1.1.0....0...1c.1.64.psy-ab..0.1.59....0.ZTjr3JP8MoQ).
+Al establecer el rango, se obtuvieron un total de 3.800.000 resultados, donde se pueden identificar páginas que dan cuenta del intervalo de pulgadas establecido [38](https://www.google.cl/search?q=14+inch...17+inch+laptops&rlz=1C5CHFA_enCO779CO779&ei=kWSxWqbCN8uswgTX9KWIDA&start=40&sa=N&biw=1366&bih=694). Por otro lado, al buscar solamente laptops, el número de resultados asciende hasta 235.000.000, y el número de pulgadas anterior ya no es la única característica del común de las páginas [39](https://www.google.cl/search?rlz=1C5CHFA_enCO779CO779&ei=0mSxWs3_K8GkwAS9n7WwAg&q=+laptops&oq=+laptops&gs_l=psy-ab.3..35i39k1j0i7i30k1l9.3526.3526.0.3679.1.1.0.0.0.0.59.59.1.1.0....0...1c.1.64.psy-ab..0.1.59....0.ZTjr3JP8MoQ).
 
 - Para buscar artículos científicos también es útil restringir los resultados de búsqueda a tipos de archivo. Prueba con "*Hedychium coronarium*" filetype:pdf.
 Describe tus resultados.
@@ -230,12 +233,12 @@ Describe tus resultados.
 Solo se obtuvieron 924 resultados, donde la mayoría conducen a un archivo en formato pdf o a sitios web que lo contienen (es coherente que el número de resultados haya disminuido tanto con respecto a *Hedychium coronarium*, ya que ahora hay una condición altamente limitante) [40](https://scholar.google.com/scholar?start=0&q=%22Hedychium+coronarium%22+filetype:pdf&hl=en&as_sdt=0,5) [41](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Hedychium+coronarium&btnG=&oq=he).
 
 - Otro truco útil es usar signos - y +. Por ejemplo, trata buscar "PCR amplification" +temperature, y luego "PCR amplification" -temperature.
-¿En qué cambian los resultados de la búsqueda?.
+¿En qué cambian los resultados de la búsqueda?
 
 Para el caso del signo "+", todos los resultados de la búsqueda contienen la palabra "temperature" [42](https://scholar.google.cl/scholar?q=%22PCR+amplification%22+%2Btemperature&hl=en&as_sdt=0&as_vis=1&oi=scholart&sa=X&ved=0ahUKEwjiycGw1vvZAhXEHJAKHbRdCqAQgQMIJjAA). Por el contrario, con el signo "-", el criterio  "temperature" no aparece en ellos [43](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22PCR+amplification%22+-temperature&btnG=).
 
 - Finalmente, prueba los operadores Boolean que representan opciones de inclusión. Por ejemplo, trata con Soil OR Human pathogens y luego trata con Soil AND Human pathogens.
-	De nuevo, ¿en qué cambian los resultados de la búsqueda?.
+	De nuevo, ¿en qué cambian los resultados de la búsqueda?
 
 La búsqueda con el operador OR resultó en sitios web que contienen uno de los dos elementos o los dos; por el contrario, con el operador AND, solo se obtienen resultados que contienen ambos elementos. Las razones anteriormente expuestas, justifican el porqué hay más resultados al utilizar OR [44](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Soil+OR+Human+pathogens+&btnG=) [45](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Soil+AND+Human+pathogens&btnG=). 
 
