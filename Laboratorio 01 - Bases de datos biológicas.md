@@ -194,6 +194,8 @@ _**Parte cuatro:**_ Buscando artículos científicos en línea.
 
 ![alert_pubmed](https://user-images.githubusercontent.com/37593827/37693436-6e34e13a-2c9e-11e8-8bc3-69722856b587.png)
 
+![alerta_ncbi](https://user-images.githubusercontent.com/37593827/37708511-b73877e2-2ce5-11e8-99bb-a4ee22e81dae.png)
+
 - Alerta *Google Scholar*
 
 ![alerta_scholar](https://user-images.githubusercontent.com/37593827/37691284-6a985106-2c8f-11e8-885a-5aafd9ddd5b8.png)
