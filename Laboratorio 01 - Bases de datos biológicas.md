@@ -104,7 +104,7 @@ Las bases de datos con su número de acceso para el gen MKS1, encontradas en *Ke
 -----
 *Preguntas 2.2* **Kegg**
 
-- ¿En qué otras rutas metabólicas están involucrado tu gen?
+- ¿En qué otras rutas metabólicas está involucrado tu gen?
 
 EL gen MKS1, según *Kegg*, no está involucrado en ninguna ruta metabólica [22](http://www.genome.jp/dbget-bin/www_bget?hsa:mks1).
 
@@ -222,12 +222,12 @@ Según los sitios encontrados en las últimas páginas de búsqueda, se puede af
 - También puedes usar * para representar una palabra que falta ("*Hedychium* +").
 ¿En qué cambiaron los resultados de la búsqueda?.
 
-Teniendo en cuenta el número de resultados de la pregunta anterior, los obtenidos para este caso corresponden a la máxima cantidad de sitios encontrados (siendo estos, un total de 8710) [37](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22Hedychium+*%22&btnG=). Esto es muy razonable, debido a que, por razón del asterisco (refleja palabra faltante), se añade a la búsqueda las demás especies de *Hedychium*, por ejemplo.
+Teniendo en cuenta el número de resultados de la pregunta anterior, los obtenidos para este caso corresponden a la mayor cantidad de sitios encontrados (siendo estos, un total de 8710) [37](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22Hedychium+*%22&btnG=). Esto es muy razonable, debido a que, por razón del asterisco (refleja palabra faltante), se añade a la búsqueda las demás especies de *Hedychium*, por ejemplo.
 
 - También puedes condicionar tus búsquedas a rangos de números como precios, años, etc. Prueba con 14 inch...17 inch laptops en google.com
 ¿Qué encuentras en los resultados? Prueba sin el rango también.
 
-Al establecer el rango, se obtuvieron un total de 3.800.000 resultados, donde se pueden identificar páginas que dan cuenta del intervalo de pulgadas establecido [38](https://www.google.cl/search?q=14+inch...17+inch+laptops&rlz=1C5CHFA_enCO779CO779&ei=kWSxWqbCN8uswgTX9KWIDA&start=40&sa=N&biw=1366&bih=694). Por otro lado, al buscar solamente laptops, el número de resultados asciende hasta 235.000.000, y el número de pulgadas anterior ya no es la única característica del común de las páginas [39](https://www.google.cl/search?rlz=1C5CHFA_enCO779CO779&ei=0mSxWs3_K8GkwAS9n7WwAg&q=+laptops&oq=+laptops&gs_l=psy-ab.3..35i39k1j0i7i30k1l9.3526.3526.0.3679.1.1.0.0.0.0.59.59.1.1.0....0...1c.1.64.psy-ab..0.1.59....0.ZTjr3JP8MoQ).
+Al establecer el rango, se obtuvieron un total de 3.800.000 resultados, donde se pueden identificar páginas que dan cuenta del intervalo de pulgadas establecido [38](https://www.google.cl/search?q=14+inch...17+inch+laptops&rlz=1C5CHFA_enCO779CO779&ei=kWSxWqbCN8uswgTX9KWIDA&start=40&sa=N&biw=1366&bih=694). Por otro lado, al buscar solamente laptops, el número de resultados asciende hasta 235.000.000, donde el contenido de las páginas es más variado y valores de pulgadas dentro del intervalo ya no son obligatorios [39](https://www.google.cl/search?rlz=1C5CHFA_enCO779CO779&ei=0mSxWs3_K8GkwAS9n7WwAg&q=+laptops&oq=+laptops&gs_l=psy-ab.3..35i39k1j0i7i30k1l9.3526.3526.0.3679.1.1.0.0.0.0.59.59.1.1.0....0...1c.1.64.psy-ab..0.1.59....0.ZTjr3JP8MoQ).
 
 - Para buscar artículos científicos también es útil restringir los resultados de búsqueda a tipos de archivo. Prueba con "*Hedychium coronarium*" filetype:pdf.
 Describe tus resultados.
@@ -237,7 +237,7 @@ Solo se obtuvieron 924 resultados, donde la mayoría conducen a un archivo en fo
 - Otro truco útil es usar signos - y +. Por ejemplo, trata buscar "PCR amplification" +temperature, y luego "PCR amplification" -temperature.
 ¿En qué cambian los resultados de la búsqueda?
 
-Para el caso del signo "+", todos los resultados de la búsqueda contienen la palabra "temperature" [42](https://scholar.google.cl/scholar?q=%22PCR+amplification%22+%2Btemperature&hl=en&as_sdt=0&as_vis=1&oi=scholart&sa=X&ved=0ahUKEwjiycGw1vvZAhXEHJAKHbRdCqAQgQMIJjAA). Por el contrario, con el signo "-", el criterio  "temperature" no aparece en ellos [43](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22PCR+amplification%22+-temperature&btnG=).
+Para el caso del signo "+", todos los resultados de la búsqueda contienen la palabra "temperature" [42](https://scholar.google.cl/scholar?q=%22PCR+amplification%22+%2Btemperature&hl=en&as_sdt=0&as_vis=1&oi=scholart&sa=X&ved=0ahUKEwjiycGw1vvZAhXEHJAKHbRdCqAQgQMIJjAA). Por el contrario, con el signo "-", el criterio "temperature" no aparece en ellos (es excluido de la búsqueda y, por lo tanto, de los resultados). [43](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22PCR+amplification%22+-temperature&btnG=).
 
 - Finalmente, prueba los operadores Boolean que representan opciones de inclusión. Por ejemplo, trata con Soil OR Human pathogens y luego trata con Soil AND Human pathogens.
 	De nuevo, ¿en qué cambian los resultados de la búsqueda?
