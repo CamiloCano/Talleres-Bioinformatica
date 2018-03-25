@@ -98,6 +98,7 @@ Es evidente que el árbol filogenético resultante cuenta con una inconsistencia
 
 
 ![screen shot 2018-03-24 at 2 38 46 pm](https://user-images.githubusercontent.com/37593827/37867007-3f9152de-2f71-11e8-8bc9-ff1d9cd88cce.png)
+
 **Anexo 1** *Árbol filogenético del gen SRY*. Las terminales agrupadas en los caldos S y D corresponden a las especies más alejadas evolutivamente de *Homo sapiens* con respecto al gen SRY.
 
 
