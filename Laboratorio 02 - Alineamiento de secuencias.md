@@ -11,11 +11,11 @@ _Preguntas 1.1_
 
 - ¿Qué función cumple el gen SRY?
 
-El gen, encontrado en el cromosoma Y, codifica para la proteína _sex-determining region Y protein_, la cual está involucrada en la determinación del sexo masculino. La proteína siendo un factor de transcripción, cuenta con la funcionalidad de regular el perfil génico de expresión celular uniéndose a sitios específicos del DNA, logrando así, estimular procesos vinculados con la formación de testículos, e inhibir aquellos relacionados con el desarrollo de estructuras reproductivas femeninas, por ejemplo [1] (https://www.ncbi.nlm.nih.gov/gene/6736) [2] (http://omim.org/entry/480000) [3] (https://ghr.nlm.nih.gov/gene/SRY).
+El gen, encontrado en el cromosoma Y, codifica para la proteína _sex-determining region Y protein_, la cual está involucrada en la determinación del sexo masculino. La proteína siendo un factor de transcripción, cuenta con la funcionalidad de regular el perfil génico de expresión celular uniéndose a sitios específicos del DNA, logrando así, estimular procesos vinculados con la formación de testículos, e inhibir aquellos relacionados con el desarrollo de estructuras reproductivas femeninas, por ejemplo [1](https://www.ncbi.nlm.nih.gov/gene/6736) [2](http://omim.org/entry/480000) [3](https://ghr.nlm.nih.gov/gene/SRY).
 
 - ¿Cuántos genes ortólogos están anotados en esa base de datos?
 
-*Gene* reporta un total de 27 genes ortólogos [4] (https://www.ncbi.nlm.nih.gov/gene/?Term=ortholog_gene_6736%5Bgroup%5D). 
+*Gene* reporta un total de 27 genes ortólogos [4](https://www.ncbi.nlm.nih.gov/gene/?Term=ortholog_gene_6736%5Bgroup%5D). 
 
 ----
 
@@ -27,11 +27,11 @@ _Preguntas 2.1_
 
 - ¿Qué es el EMBL-EBI?
 
-Haciendo parte del _Laboratorio Europeo de Biología Molecular_, este es un instituto encargado de, además de realizar investigación en biología computacional, ofrecer servicios relacionados con herramientas bioinformáticas, masificar tecnologías vanguardistas, brindar programas para capacitación de usuarios, y compartir información de experimentos en ciencias biológicas; todo lo anterior con el objetivo de apoyar la industria y la academia [5] (https://www.ebi.ac.uk/) [6] (https://www.ebi.ac.uk/about).
+Haciendo parte del _Laboratorio Europeo de Biología Molecular_, este es un instituto encargado de, además de realizar investigación en biología computacional, ofrecer servicios relacionados con herramientas bioinformáticas, masificar tecnologías vanguardistas, brindar programas para capacitación de usuarios, y compartir información de experimentos en ciencias biológicas; todo lo anterior con el objetivo de apoyar la industria y la academia [5](https://www.ebi.ac.uk/) [6](https://www.ebi.ac.uk/about).
 
 - ¿Cuántos tipos de alineamiento múltiple se pueden realizar en EMBL-EBI?
 
-Los métodos de alineamiento múltiple que se pueden realizar son [7] (https://www.ebi.ac.uk/Tools/msa/):
+Los métodos de alineamiento múltiple que se pueden realizar son [7](https://www.ebi.ac.uk/Tools/msa/):
 		
 	Clustal Omega
 	Kalign	
@@ -45,11 +45,11 @@ Los métodos de alineamiento múltiple que se pueden realizar son [7] (https://w
 
 - ¿Cuál es el programa que ellos ofrecen que funciona mejor para secuencias de proteínas?
 
-Según la página, MUSCLE es el mejor programa para secuencias protéicas [8] (https://www.ebi.ac.uk/Tools/msa/). 
+Según la página, MUSCLE es el mejor programa para secuencias protéicas [8](https://www.ebi.ac.uk/Tools/msa/). 
 
 - ¿Qué otros tipos de herramientas ofrece EMBL-EBI?
 
-Los tipos de herramientas que ofrece el instituto son [9] (https://www.ebi.ac.uk/services/all):
+Los tipos de herramientas que ofrece el instituto son [9](https://www.ebi.ac.uk/services/all):
 
 	DNA & RNA
 	Gene Expression
@@ -69,11 +69,11 @@ _Preguntas 2.2_
 
 - ¿Cuál es el costo de abrir un _gap_?
 
-El costo de abrir un _gap_ es 1.53 [10] (https://www.ebi.ac.uk/Tools/msa/mafft/).
+El costo de abrir un _gap_ es 1.53 [10](https://www.ebi.ac.uk/Tools/msa/mafft/).
 
 - ¿Cuál es el costo de extender un _gap_?
 
-Extender un _gap_ cuesta 0.123 [11] (https://www.ebi.ac.uk/Tools/msa/mafft/).
+Extender un _gap_ cuesta 0.123 [11](https://www.ebi.ac.uk/Tools/msa/mafft/).
 
 
 ----
@@ -142,7 +142,7 @@ Teniendo en cuenta que los valores del caso 1 arrojaron una longitud de 1905 pb,
 
 _**Parte 3:**_ Diseño de partidores
 
-- Partidores encontrados [12] (http://maya.ccg.unam.mx/aln2primers/showjobfile.cgi?my_ec1aab2f_intronless_cluster_0_1__mitochondrion_Chlorocebus_sabaeus_aln.aa_amp):
+- Partidores encontrados [12](http://maya.ccg.unam.mx/aln2primers/showjobfile.cgi?my_ec1aab2f_intronless_cluster_0_1__mitochondrion_Chlorocebus_sabaeus_aln.aa_amp):
 	
 		Forward: 5' CCGCCGTTCAACAAaayathccngc 3'
 		Reverse: 5' tacstygtrgtTGATCCGGTGGATGGG 3'
