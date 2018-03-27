@@ -112,7 +112,7 @@ _Preguntas 2.5_
 
 - ¿Cómo esperas que sea el alineamiento si el costo de abrir un _gap_ aumenta? ¿Y si disminuye?
 
-Teóricamente, el objetivo final del alineamiento, incluyendo además el estado del resultado, es aquel que tienda a maximizar el beneficio o a minimizar el costo, obedeciendo a los valores de penalización de una matriz dada [^1]. Según la premisa anterior, creo que aumentar el costo de abrir un _gap_ supondría que el alineamiento se construyera con pocos _gaps_; por el contrario, en el caso donde la penalización por abrir sea menor, esperaría encontrar más _gaps_.
+Teóricamente, el objetivo final del alineamiento, incluyendo además el estado del resultado, es aquel que tienda a maximizar el beneficio o a minimizar el costo, obedeciendo a los valores de penalización de una matriz dada[^1]. Según la premisa anterior, creo que aumentar el costo de abrir un _gap_ supondría que el alineamiento se construyera con pocos _gaps_; por el contrario, en el caso donde la penalización por abrir sea menor, esperaría encontrar más _gaps_.
 
 - ¿Cómo esperas que sea el alineamiento si el costo de extender un _gap_ aumenta? ¿Y si disminuye?
 
