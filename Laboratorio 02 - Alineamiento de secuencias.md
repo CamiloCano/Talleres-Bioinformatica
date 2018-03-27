@@ -44,7 +44,7 @@ Los tipos de alineamiento múltiple que se pueden realizar son [7](https://www.e
 
 - ¿Cuál es el programa que ellos ofrecen que funciona mejor para secuencias de proteínas?
 
-Según la página, MUSCLE es el mejor programa para secuencias protéicas [8](https://www.ebi.ac.uk/Tools/msa/). 
+Según la página, MUSCLE es el mejor programa para secuencias proteicas [8](https://www.ebi.ac.uk/Tools/msa/). 
 
 - ¿Qué otros tipos de herramientas ofrece EMBL-EBI?
 
