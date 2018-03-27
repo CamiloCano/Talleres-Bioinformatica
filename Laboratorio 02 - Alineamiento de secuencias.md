@@ -36,7 +36,7 @@ Los tipos de alineamiento múltiple que se pueden realizar son [7](https://www.e
 	Clustal Omega
 	Kalign	
 	MAFFT
-	MView
+	MUSCLE
 	T-Coffee
 	WebPRANK
 			
