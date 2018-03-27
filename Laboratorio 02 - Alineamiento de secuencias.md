@@ -125,7 +125,7 @@ ______
 
 Para un valor de _Gap open penalty_ fijo (siendo este, 1.53) se obtuvieron los resultados de longitud de secuencia consenso a medida que el _Gap extension penalty_ aumenta.
  
-| Gap extension penalty    | Lenght (bp    |       
+| Gap extension penalty    | Lenght (bp)    |       
 | ------------- | ------------- | 
 |  0  | 1973 |          
 | 0.1 | 1927                
