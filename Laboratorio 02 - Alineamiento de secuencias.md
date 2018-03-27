@@ -90,16 +90,16 @@ _Preguntas 2.4_
 
 - 	¿Cuál es la especie cuyo gen SRY está más relacionado con el gen SRY de humanos?
 
-A partir del árbol filogenético obtenido, se puede evidenciar que el gen SRY de *Homo_sapiens* está más relacionado al gen SRY de *Pan troglodytes* (siendo este, clado hermano).
+A partir del árbol guía obtenido, se puede evidenciar que el gen SRY de *Homo_sapiens* está más relacionado al gen SRY de *Pan troglodytes* (siendo este, clado hermano).
  
 - ¿Cuál es el más lejano?
 
-Es evidente que el árbol filogenético resultante cuenta con una inconsistencia. El evento de especiación del ancestro común de todas las taxas resulta en tres líneas independientes; por tanto, es claro que la información suministrada no es suficiente para determinar las relaciones ancestro-descendientes del gen dado a tal nivel en la filogenia. Por lo anterior es correcto afirmar que los respectivos genes SRY de todas las terminales de los clados S y D (ver figura anexa) son los más lejanos al gen SRY de *Homo sapiens*. 
+Es evidente que el árbol guía resultante cuenta con una inconsistencia. El evento de especiación del ancestro común de todas las taxas resulta en tres líneas independientes; por tanto, es claro que la información suministrada no es suficiente para determinar las relaciones ancestro-descendientes del gen dado a tal nivel del árbol. Por lo anterior es correcto afirmar que los respectivos genes SRY de todas las terminales de los clados S y D (ver figura anexa) son los más lejanos al gen SRY de *Homo sapiens*. 
 
 
 ![screen shot 2018-03-24 at 2 38 46 pm](https://user-images.githubusercontent.com/37593827/37867007-3f9152de-2f71-11e8-8bc9-ff1d9cd88cce.png)
 
-**Anexo 1.** *Árbol filogenético del gen SRY*. Las terminales agrupadas en los caldos S y D corresponden a las especies más alejadas evolutivamente de *Homo sapiens* con respecto al gen SRY.
+**Anexo 1.** *Árbol guía para alineamiento del gen SRY*. Las terminales agrupadas en los caldos S y D corresponden a las especies más alejadas evolutivamente de *Homo sapiens* con respecto al gen SRY.
 
 
 - ¿Cuál es la especie cuyo gen SRY es más cercana a la del burro? 
@@ -112,13 +112,34 @@ _Preguntas 2.5_
 
 - ¿Cómo esperas que sea el alineamiento si el costo de abrir un _gap_ aumenta? ¿Y si disminuye?
 
-Teóricamente, el objetivo final del alineamiento, incluyendo además el estado del resultado, es aquel que tienda a maximizar el beneficio o a minimizar el costo, obedeciendo a los valores de penalización de una matriz dada[^1]. Según la premisa anterior, creo que aumentar el costo de abrir un _gap_ supondría que el alineamiento se construyera con pocos _gaps_; por el contrario, en el caso donde la penalización por abrir sea menor, esperaría encontrar más _gaps_.
+Teóricamente, el objetivo final del alineamiento, incluyendo además el estado del resultado, es aquel que tienda a maximizar el beneficio o a minimizar el costo, obedeciendo a los valores de penalización de una matriz dada        [^1]. Según la premisa anterior, creo que aumentar el costo de abrir un _gap_ supondría que el alineamiento se construyera con pocos _gaps_; por el contrario, en el caso donde la penalización por abrir sea menor, esperaría encontrar más _gaps_.
 
 - ¿Cómo esperas que sea el alineamiento si el costo de extender un _gap_ aumenta? ¿Y si disminuye?
 
 Manteniendo el mismo concepto teórico anterior, al realizar un alineamiento de secuencias con un valor de extensión grande, creería que habría una tendencia de los _gaps_ a ser más cortos. Si la modificación es contraria, ahora con una penalización baja, esperaría que no hubiera restricciones para construir _gaps_ de longitud considerablemente alta.
 
-**Nota:** el fundamento de las dos respuestas anteriores no incluye lo que se cree que puede suceder a la longitud total de la secuencia consenso, pues pienso que no hay manera de establecer una correlación directa entre modificar penalizaciones y variación de la longitud. 
+______
+
+**Nota:** la justificación de las dos respuestas anteriores no incluye lo que se cree que puede suceder a la longitud total de la secuencia consenso, ya que después de considerar varios escenarios posibles, producto de la combinacion de distintos valores de penalización, no se identifica un patrón de cambio o correlación con el número de nucleótidos. Aquí hay una prueba de ello:
+
+
+Para un valor de _Gap open penalty_ fijo (siendo este, 1.53) se obtuvieron los resultados de longitud de secuencia consenso a medida que el _Gap extension penalty_ aumenta.
+ 
+| Gap extension penalty    | Lenght (bp    |       
+| ------------- | ------------- | 
+|  0  | 1973 |          
+| 0.1 | 1927                
+| 0.2 | 1957              
+| 0.3 | 1948 
+| 0.4 | 1893
+| 0.5 | 1851
+| 0.6 | 1861
+| 0.7 | 1846
+| 0.8 | 1846
+| 0.9 | 1846
+| 1   | 1846
+
+Es evidente que para el caso anterior no se puede establecer una correlación entre el aumento de la penalización y el cambio de longitud. Aunque se puede ver que este último tiende a estabilizarse, considerar esta afirmación como verdadera sería una tanto apresurado, ya que se requieren evaluar más variables.
 
 --------
 
@@ -134,9 +155,9 @@ _Resultados para los tres casos_:
 | ------------- | ------------- | ---------| ----------|
 | 1 | 1.53 |     0.123      | 1905 pb
 |  2| 2 |       0.123    |        1957 pb    
-| 3 |  2             |     0      |   1968 pb
+| 3 |  1.53             |     0      |   1973 pb
 		
-Teniendo en cuenta que los valores del caso 1 arrojaron una longitud de 1905 pb, al aumentar el costo de abrir un _gap_ a 2 (siendo antes, 1.53), se puede evidenciar en la secuencia consenso para el caso 2 aumentó su longitud total a 1957 pb. Por otro lado, manteniendo el mismo valor del caso 2 para la apertura de un _gap_, disminuir el costo de extensión a 0 para el caso 3 (siendo antes, 0.123) resulta en una longitud total de alineamiento de 1968 pb. 
+Teniendo en cuenta que los valores del caso 1 arrojaron una longitud de 1905 pb, al aumentar el costo de abrir un _gap_ a 2 (siendo antes, 1.53) para el caso 2, se puede evidenciar en la secuencia consenso un aumento de su longitud total a 1957 pb. Por otro lado, manteniendo el valor predeterminado de apertura de un _gap_, disminuir el costo de extensión a 0 para el caso 3 (siendo antes, 0.123) resulta en una longitud total de alineamiento de 1973 pb. 
 
 ----
 
@@ -156,8 +177,8 @@ _Ventana arrojada por el programa:_
 
 ![pprimers](https://user-images.githubusercontent.com/37593827/37870035-cee90856-2fa2-11e8-83e4-02c33da09a7d.png)
 
-**Referencias**
-[^1]: Rosenberg, M. S., (2009), _Sequence Alignment Methods, Models, Concepts, and Strategies_, Los Angeles, University of California Press. 
+**Referencias**  
+[^1]: Rosenberg, M. S., (2009), _Sequence Alignment Methods, Models, Concepts, and Strategies_, Los Angeles, California: University of California Press. 
 
 
 
