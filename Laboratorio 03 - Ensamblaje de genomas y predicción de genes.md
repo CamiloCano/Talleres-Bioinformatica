@@ -187,6 +187,8 @@ _Resultados de búsqueda en BLAST para ORFfinder:_
 	y los valores para E value son muy altos.
 
 Por su lado, para los casos de ORF3 y ORF7, BLAST no encontró similitudes significativas.
+
+----
  
 _Resultados de búsqueda en BLAST para GLIMMER:_
 
