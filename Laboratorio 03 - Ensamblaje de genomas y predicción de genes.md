@@ -24,26 +24,26 @@ _Preguntas 1.2_
 
 - ¿Qué es el N50, L50, NG50?
 
-**N50:** este equivale a la longitud en nucleótidos del _contig_ más corto, dentro del conjunto de los más largos que representan el 50% de la longitud total del ensamblaje [7](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics).
+**N50:** este equivale a la longitud en nucleótidos del _contig_ más corto, dentro del conjunto de los más largos que representan el 50% de la longitud total del ensamblaje [5](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics).
 
-**L50:** este equivale al número mínimo de _contigs_ necesarios para representar el 50% del tamaño del ensamblaje [8](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics). 
+**L50:** este equivale al número mínimo de _contigs_ necesarios para representar el 50% del tamaño del ensamblaje [6](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics). 
 
-**NG50:** este parámetro estadístico posee el mismo fundamento necesario para calcular el N50; sin embargo, este se define a partir de la longitud total del genoma conocido o estimado, no del tamaño del ensamblaje (pudiendo ser este una desviación del tamaño real del genoma estudiado) [9](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics). 
+**NG50:** este parámetro estadístico posee el mismo fundamento necesario para calcular el N50; sin embargo, este se define a partir de la longitud total del genoma conocido o estimado, no del tamaño del ensamblaje (pudiendo ser este una desviación del tamaño real del genoma estudiado) [7](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics). 
 
 - ¿Cuál es el propósito de calcular estas estadísticas?
 
-Los parámetros **N50** y **L50** acuden al objetivo de identificar la calidad y estado final del ensamblaje, además de ser una medida indirecta de la posibilidad de encontrar genes completos [10](https://en.wikipedia.org/wiki/Contiguity). Los estadísticos anteriores, juntos, dan cuenta de la _contigüidad_ [11](https://en.wikipedia.org/wiki/Contiguity). Contar con un valor grande para el **N50** no es suficiente para concluir sobre la integridad del ensamblaje en términos de su fragmentación, pues los demás _contigs_ mayores en tamaño pueden ser muy cercanos en longitud; por tanto, saber el número mínimo de _contigs_ para alcanzar el 50% del ensamblaje (esto es, **L50**) es clave para no cometer errores tipo B (por ejemplo, falsos positivos). 
+Los parámetros **N50** y **L50** acuden al objetivo de identificar la calidad y estado final del ensamblaje, además de ser una medida indirecta de la posibilidad de encontrar genes completos [8](https://en.wikipedia.org/wiki/Contiguity). Los estadísticos anteriores, juntos, dan cuenta de la _contigüidad_ [9](https://en.wikipedia.org/wiki/Contiguity). Contar con un valor grande para el **N50** no es suficiente para concluir sobre la integridad del ensamblaje en términos de su fragmentación, pues los demás _contigs_ mayores en tamaño pueden ser muy cercanos en longitud; por tanto, saber el número mínimo de _contigs_ para alcanzar el 50% del ensamblaje (esto es, **L50**) es clave para no cometer errores tipo B (por ejemplo, falsos positivos). 
 
-El cálculo del **NG50** tiene como propósito establecer un valor idóneo para poder comparar entre genomas de diferentes especies, por ejemplo [12](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics). Esto es necesario ya que el **N50** puede ser muy variable entre los diferentes ensamblajes para un genoma dado; por tanto, esto supone un inconveniente a la hora de decidir cuál **N50** seleccionar para hacer la comparación (el uso de algunos podría dar resultados contrarios, incluso existe la posibilidad de que no sean informativos) [13](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics). Que el **NG50** este construido basado en la longitud conocida o estimada del genoma, evita esta problemática [14](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics).
+El cálculo del **NG50** tiene como propósito establecer un valor idóneo para poder comparar entre genomas de diferentes especies, por ejemplo [10](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics). Esto es necesario ya que el **N50** puede ser muy variable entre los diferentes ensamblajes para un genoma dado; por tanto, esto supone un inconveniente a la hora de decidir cuál **N50** seleccionar para hacer la comparación (el uso de algunos podría dar resultados contrarios, incluso existe la posibilidad de que no sean informativos) [11](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics). Que el **NG50** este construido basado en la longitud conocida o estimada del genoma, evita esta problemática [12](https://en.wikipedia.org/wiki/N50,_L50,_and_related_statistics).
 
 
 - ¿Cuál es el genoma que escogiste? Adjunta la referencia.
 
-Existe un único genoma de _Asparagus officinalis_ reportado en _Genome_ (siendo este, completo), cuya referencia es: **PRJNA317340** [15](https://gold.jgi.doe.gov/projects?id=Gp0235896) [16](https://www.ncbi.nlm.nih.gov/genome/?term=PRJNA317340). 
+Existe un único genoma de _Asparagus officinalis_ reportado en _Genome_ (siendo este, completo), cuya referencia es: **PRJNA317340** [13](https://gold.jgi.doe.gov/projects?id=Gp0235896) [14](https://www.ncbi.nlm.nih.gov/genome/?term=PRJNA317340). 
 
 - ¿Cuál es el N50 del genoma que escogiste? ¿Y el NG50?
 
-Según _Genome_, los valores para algunos parámetros estadísticos del genoma de _Asparagus officinalis_ (referencia, **PRJNA317340**) son [17](https://www.ncbi.nlm.nih.gov/assembly/GCF_001876935.1/): 
+Según _Genome_, los valores para algunos parámetros estadísticos del genoma de _Asparagus officinalis_ (referencia, **PRJNA317340**) son [15](https://www.ncbi.nlm.nih.gov/assembly/GCF_001876935.1/): 
 
 	
 	Contig N50: 46,553
@@ -53,13 +53,13 @@ Según _Genome_, los valores para algunos parámetros estadísticos del genoma d
 	
 - ¿Qué tipo de tecnología se usó para secuenciar el genoma que escogiste?
 
-Según _Assembly_, la tecnología de secuenciación empleada para ensamblar el genoma fue _Illumina HiSeq_ [18](https://www.ncbi.nlm.nih.gov/assembly/GCF_001876935.1/).
+Según _Assembly_, la tecnología de secuenciación empleada para ensamblar el genoma fue _Illumina HiSeq_ [16](https://www.ncbi.nlm.nih.gov/assembly/GCF_001876935.1/).
 
 - ¿Qué organismo escogiste, cuántos cromosomas tiene tu organismo y cuál es su tamaño?
 
-Esparraguera o espárrago común (_Asparagus officinalis_), según las bases de datos _Genome_ y _Assembly_, cuenta con un total de 10 cromosomas y su genoma tiene un tamaño de 1,187,538,024 pb [19](https://es.wikipedia.org/wiki/Asparagus_officinalis) [20](https://www.ncbi.nlm.nih.gov/assembly/GCF_001876935.1/) [21](https://www.ncbi.nlm.nih.gov/genome/?term=PRJNA317340).
+Esparraguera o espárrago común (_Asparagus officinalis_), según las bases de datos _Genome_ y _Assembly_, cuenta con un total de 10 cromosomas y su genoma tiene un tamaño de 1,187,538,024 pb [17](https://es.wikipedia.org/wiki/Asparagus_officinalis) [18](https://www.ncbi.nlm.nih.gov/assembly/GCF_001876935.1/) [19](https://www.ncbi.nlm.nih.gov/genome/?term=PRJNA317340).
 
-El tamaño de cada uno de los 10 cromosomas es [22](https://www.ncbi.nlm.nih.gov/assembly/GCF_001876935.1/#/st): 
+El tamaño de cada uno de los 10 cromosomas es [20](https://www.ncbi.nlm.nih.gov/assembly/GCF_001876935.1/#/st): 
 
 
 | Chromosome| Length (dp)|       
