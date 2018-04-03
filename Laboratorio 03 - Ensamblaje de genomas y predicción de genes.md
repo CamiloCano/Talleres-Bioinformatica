@@ -173,6 +173,9 @@ _Resultados de búsqueda en BLAST para ORFfinder:_
 |  ORF5 |    -   |        DNA polymerase III subunit psi       |  P43750.1 |     100%    |  2e-95  |
 |  ORF6 |    -   |                      --                     |     --    |      --     |    --   |
 |  ORF7 |    -   |                      --                     |     --    |      --     |    --   |
+
+
+
 **Nota:** la definición funcional se aceptó según el valor de los parámetros de _Query cover_ y _E value_. Aunque para ORF2 y ORF6 sí se reportaba una proteína producto del alineamiento, se decidió no considerarlas, pues para los dos casos los valores de los parámetros suponían que no era muy confiable tomar el resultado como verdadero. Los valores encontrados son:
 
 |Label|Query cover|E value
